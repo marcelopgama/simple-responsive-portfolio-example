@@ -1,0 +1,74 @@
+p.footerHeader
+{
+    
+    font-size: large;
+    font-weight: bold; 
+    text-align: left;    
+    margin: 0;
+}
+p.footerHalfBorder
+{
+    border-style: solid; 
+    border-color: red; 
+    border-width: 1px 0 0 0;
+    margin: 0;
+    width: 40%; 
+}
+span.footerText
+{   
+    font-size: small;
+    text-align: left;  
+    
+}
+div.footer
+{
+    background-color: black;
+    text-align: center;
+    padding: 15px 0 15px 0;
+    margin: 0; 
+    font-family: 'Courier New', Courier, monospace;
+    color:white;   
+}
+div.footerDiv
+{
+    display: inline-block;
+    width: 30%;    
+    margin:0 auto auto 0;
+    vertical-align: top;
+    
+}
+div.footerContent
+{
+    margin:20px 0 0 0;
+    text-align: left;
+
+}
+div.footerSocial
+{
+    margin-top: 10px;    
+    text-align: left;
+}
+textarea.footerEntry
+{
+    width: 100%;
+    margin:0;
+    resize: none; 
+    overflow: auto;        
+}
+
+@media screen and (max-width: 850px) { /* width at which layout changes  */
+    
+    div.footer
+    {
+        padding: 15px 15px 15px 15px;
+    }
+    div.footerDiv
+    {     
+        margin:20px 20px 20px auto;
+        display:unset;
+    }
+    div.footerContent
+    {       
+        text-align: left;
+    }  
+  }

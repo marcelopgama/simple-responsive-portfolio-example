@@ -1,0 +1,91 @@
+div.mainPanel
+{
+    overflow: hidden;    
+    border-radius: 5px;    
+    background-color: #f3f5f6;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 2%;     
+    height: 100%;
+    margin: 0 10px 10px 10px
+}
+
+div.divProject
+{       
+    border-radius: 10px 10px 10px 10px ;
+    padding: 0; 
+    width: 100%;
+    height: 100%;            
+    margin:0 0 50px 0;
+    display: flex;    
+         
+}
+
+div.leftPanel
+{  
+    vertical-align: middle;    
+    display:inline-block;    
+    width: 50%;
+    margin:auto 0 auto auto;
+     
+}
+img.imageProject
+{
+    border-style: solid;
+    border-radius: 10px 10px 10px 10px; 
+    border-width: 1vw;
+    border-color: rgb(37, 37, 39);
+    width: 100%; 
+}
+div.rightPanel
+{
+    margin:0;  
+    padding:0 0 0 40px; 
+    width: 50%;        
+    margin:10% 20px 10% 0;   
+}
+div.projectText
+{
+    text-align: right;
+    font-size:large;    
+    margin:0;
+}
+button.projectButton
+{
+    color: white;
+    background-color: #00ae9c;
+    padding: 10px;
+    border-radius: 10px 10px 10px 10px;     
+    border-style: none;    
+    cursor:pointer;  
+    margin:10px 0 10px auto; 
+    display: block;
+    
+}
+
+@media screen and (max-width: 700px) 
+{ 
+    div.divProject
+    {       
+        flex-direction: column;
+        margin:20px 0 100px 0;     
+    }
+    div.projectText
+    {    
+        text-align: center;
+    }
+    button.projectButton
+    {        
+        margin:10px auto 10px auto;
+        width: 80%;
+    }
+    div.leftPanel
+    { 
+        width: 100%;
+        margin:0 auto 20px auto;      
+    }
+    div.rightPanel
+    {
+        width: 100%;
+        margin:0 auto 0 auto;    
+    }
+}

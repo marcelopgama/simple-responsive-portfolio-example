@@ -1,0 +1,67 @@
+img.perfilImage
+{
+    height:10vw;
+    border-radius:90px;  
+    border-width: 4px;
+    border-style: solid;
+    border-color: black;
+}
+
+div.languages
+{
+    font-size: medium;
+    margin: 0 0 15px 0;
+    width: 100%;
+}
+div.leftPanel
+{
+    margin:1% 0 1% 0%;
+    width: 40%;
+    text-align: right;
+    display: inline-block;
+    vertical-align: middle;
+}
+div.rightPanel
+{
+    margin:1% 0 1% 10%;
+    width: 40%;
+    text-align: left;
+    display: inline-block;
+    vertical-align: middle;
+}
+progress/* IE10 */
+{
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    width: 100%;
+    height: 5px;
+    background-color: white;
+    border-radius: 40px;      
+    color: linear-gradient(to right, #003300 0%, #00ff00 100%);
+}
+
+/* Firefox */
+progress::-moz-progress-bar { 
+    background: linear-gradient(to right, #003300 0%, #00ff00 100%); 
+}
+
+/* Chrome */
+progress::-webkit-progress-value {
+    background: linear-gradient(to right, #003300 0%, #00ff00 100%);
+}
+
+@media screen and (max-width: 550px) { 
+    div.rightPanel,div.leftPanel {
+        display:unset;
+        padding: 0;        
+        text-align: center;
+      }
+    
+    div.bodyPanel
+    { 
+        padding: 20px 1% 20px 1%; 
+        margin: 0 10px 10px 10px
+         
+    }
+  }
