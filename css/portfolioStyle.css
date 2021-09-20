@@ -62,12 +62,12 @@ button.projectButton
     
 }
 
-@media screen and (max-width: 700px) 
+@media (max-width: 700px) 
 { 
     div.divProject
     {       
         flex-direction: column;
-        margin:20px 0 100px 0;     
+        margin:20px 0 100px 0;                  
     }
     div.projectText
     {    
@@ -81,11 +81,18 @@ button.projectButton
     div.leftPanel
     { 
         width: 100%;
-        margin:0 auto 20px auto;      
+        margin:0 auto 20px auto;
+        padding: 0;      
     }
     div.rightPanel
     {
         width: 100%;
-        margin:0 auto 0 auto;    
+        margin:0 auto 0 auto;
+        padding: 0;   
+    }
+    img.imageProject
+    {
+        width:98%
+
     }
 }

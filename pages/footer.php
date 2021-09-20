@@ -18,11 +18,11 @@
             </div>
             <div class="footerSocial">
                 <i class="bi bi-telephone-fill"></i>
-                <span class="footerText">+5524992699048</span>
+                <span class="footerText">+5524999999999</span>
             </div>
             <div class="footerSocial">
                 <i class="bi bi-envelope-fill"></i>
-                <span class="footerText">marcelopgama96@yahoo.com.br</span>
+                <span class="footerText">meuemail@gmail.com</span>
             </div>
         </div>
         

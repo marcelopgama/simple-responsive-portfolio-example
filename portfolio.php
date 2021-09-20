@@ -18,7 +18,7 @@
             <div class="projectText">
                 Projeto desenvolvido em .NET utilizando a linguagem C#. O projeto consiste em um programa para analisar amostras numéricas coletadas.
             </div>
-            <button class="projectButton">Visualizar</button> 
+            <button class="projectButton" onclick="location.href='https://github.com/marcelopgama/Statistic_Analisis'">Visualizar</button> 
         </div>         
     </div>
 
@@ -34,7 +34,7 @@
             <div class="projectText">
                 Projeto desenvolvido em .NET utilizando as linguagens C# e SQL. O projeto consiste em um programa que gerencia as notas fiscais presentes no banco SQL Server da empresa.
             </div>
-            <button class="projectButton">Visualizar</button> 
+            <button class="projectButton" onclick="location.href='https://github.com/marcelopgama/Gerenciador-de-Notas-Fiscais'">Visualizar</button> 
         </div>         
     </div>
 
@@ -50,7 +50,7 @@
             <div class="projectText">
                 Projeto desenvolvido utilizando Python. O projeto consiste em um programa para identificar padrões da análise técninca nos gráficos de preço.
             </div>
-            <button class="projectButton">Visualizar</button> 
+            <button class="projectButton" onclick="location.href='https://github.com/marcelopgama/Stock-Chart-Pattern-Recognition'">Visualizar</button> 
         </div>         
     </div>
     
